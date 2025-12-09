@@ -1,7 +1,4 @@
-
-
-
-#☕ Coffee Farmers Payment & Weight Checker System
+## ☕ Coffee Farmers Payment & Weight Checker System
 
 Student: INEZA Agape
 Student ID: 27464
@@ -71,6 +68,9 @@ COFFEE_QUALITY (1) ───┐
 SYSTEM_USERS (1) ─── AUDIT_LOG (N)
                      │
                  HOLIDAYS
+
+![System Diagram](./s.drawio.png)
+
 # ⚖️ Business Rules
 
 ## **Rule 1: No Weekday Operations**

@@ -18,11 +18,11 @@ Lecturer: Eric Maniraguha
 7. [Links](#7-links)
 
 ---
-##🎯 Project Overview
+## 🎯 Project Overview
 
 A comprehensive Oracle PL/SQL database system for managing coffee farmers' deliveries, payments, and quality grading at washing stations. The system automates payment calculations, enforces business rules, provides audit trails, and offers business intelligence capabilities.
 
-##✨ Features
+## ✨ Features
 
 ✅ Automated Payment Calculation - Real-time payment computation based on weight and quality
 
@@ -55,8 +55,7 @@ A comprehensive Oracle PL/SQL database system for managing coffee farmers' deliv
 | ALERTS           | Anomaly detection alerts          |
 
 
-#Entity Relationship Diagram
-text
+## Entity Relationship Diagram
 FARMERS (1) ───┐
                │
 COFFEE_QUALITY (1) ───┐
@@ -73,7 +72,7 @@ SYSTEM_USERS (1) ─── AUDIT_LOG (N)
 
 # ⚖️ Business Rules
 
-## **Rule 1: No Weekday Operations**
+## ⚖️ Business Rules
 All write operations (INSERT, UPDATE, DELETE) on core tables are blocked from **Monday to Friday**.  
 A validation trigger checks the current weekday and prevents changes.
 
@@ -132,8 +131,9 @@ System monitors delivery weights for sudden abnormal deviations.
 
 🚀 Innovation Highlights
 1. Context-Aware Business Rules
-Intelligent restrictions that understand weekday/holiday combinations and weekend allowances.
+## 🚀 Innovation Highlights
 
+1. Context-Aware Business Rules
 2. Predictive Anomaly Detection
 Personalized thresholds based on each farmer's delivery history with real-time alerts.
 

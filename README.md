@@ -68,7 +68,7 @@ SYSTEM_USERS (1) ─── AUDIT_LOG (N)
                      │
                  HOLIDAYS
 
-![System Diagram](./s.drawio.png)
+![System Diagram](./screenshots/s.drawio.png)
 
 # ⚖️ Business Rules
 
